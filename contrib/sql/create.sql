@@ -139,8 +139,8 @@ ALTER TABLE ONLY public.expense
 -- Name: expense customer_fkey; Type: FK CONSTRAINT; Schema: public; Owner: $POSTGRESQL_USER
 --
 
-ALTER TABLE ONLY public.expense
-    ADD CONSTRAINT customer_fkey FOREIGN KEY (customer_id) REFERENCES public.customer(customer_id);
+-- ALTER TABLE ONLY public.expense
+--     ADD CONSTRAINT customer_fkey FOREIGN KEY (customer_id) REFERENCES public.customer(customer_id);
 
 
 --
@@ -148,8 +148,8 @@ ALTER TABLE ONLY public.expense
 -- Name: cashback customer_fkey; Type: FK CONSTRAINT; Schema: public; Owner: $POSTGRESQL_USER
 --
 
-ALTER TABLE ONLY public.cashback
-    ADD CONSTRAINT customer_fkey FOREIGN KEY (customer_id) REFERENCES public.customer(customer_id);
+-- ALTER TABLE ONLY public.cashback
+--     ADD CONSTRAINT customer_fkey FOREIGN KEY (customer_id) REFERENCES public.customer(customer_id);
 
 
 -- Completed on 2022-04-01 18:57:19 UTC
